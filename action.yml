@@ -1,13 +1,13 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  current-version:  # id of input
+    description: 'Existing Version in year.month.day.counter format'
     required: true
-    default: 'World'
+    default: '2023.1.1.1'
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  new-version: # id of output
+    description: 'New Version'
 runs:
   using: 'node16'
   main: 'index.js'
