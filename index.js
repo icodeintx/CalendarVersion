@@ -15,7 +15,12 @@ try {
   let month = currentDate.getMonth();
   let day = currentDate.getDate();
 
+  console.log(`Year: ${year}`);
+  console.log(`Month: ${month}`);
+  console.log(`Day: ${day}`);
+
    const versionArray = currentVersion.split('.');
+   console.log(versionArray);
    if (versionArray.length == 4)
    {
       if (versionArray[0] == year && versionArray[1] == month & versionArray[2] == day)
