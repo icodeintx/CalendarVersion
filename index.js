@@ -10,6 +10,7 @@ try {
 
   // Get variables for current Year, Month, Day
   var currentDate = new Date();
+  console.log(`current get date: ${currentDate}`)
   let year = currentDate.getFullYear();
   let month = currentDate.getMonth();
   let day = currentDate.getDate();
