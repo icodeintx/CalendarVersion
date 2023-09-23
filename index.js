@@ -12,8 +12,8 @@ try {
   var currentDate = new Date();
   console.log(`current get date: ${currentDate}`)
   let year = currentDate.getFullYear();
-  let month = currentDate.getMonth();
-  let day = currentDate.getDate();
+  let month = currentDate.getMonth() + 1;
+   let day = currentDate.getDate();
 
   console.log(`Year: ${year}`);
   console.log(`Month: ${month}`);
